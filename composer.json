@@ -1,0 +1,17 @@
+{
+    "name": "user/generating-pdf-files",
+    "autoload": {
+        "psr-4": {
+            "User\\GeneratingPdfFiles\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jeremiah.quiambao"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5",
+        "fpdf/fpdf": "^1.85"
+    }
+}
